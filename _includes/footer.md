@@ -1,8 +1,16 @@
-
-
-Design by Tim O'Brien [t413.com](http://t413.com/)
+Jeosafá de Melo Freitas Jr (aka jotajr)
 &mdash;
-[SinglePaged theme](https://github.com/t413/SinglePaged)
-&mdash;
-this site is [open source]({{ site.source_link }})
+Copyright &copy; 2015
+
+<ul class="list-inline">
+  <li>
+    <a href="https://github.com/ridermansb"><i class="fa fa-github fa-2x text-white"></i></a>
+  </li>
+  <li>
+    <a href="https://twitter.com/ridermansb"><i class="fa fa-twitter fa-2x text-white"></i></a>
+  </li>
+  <li>
+    <a href="https://www.linkedin.com/in/ridermansb"><i class="fa fa-linkedin-square fa-2x text-white"></i></a>
+  </li>
+</ul>
 
