@@ -91,42 +91,5 @@ $(document).ready(function (){
         }
 	});
 
-    //contact form
-    $("#contact-form").submit(function(e) {
-        e.preventDefault();
-        submitForm = this.id.split('-')[2];
-        emailField = $("#text-" + submitForm);
-
-        if (validateEmail(emailField)) {
-            return true;
-        }
-
-        $.ajax({
-            url: "{{ site.form_action }}",
-            method: "POST",
-            data: {
-                _next: location.protocol + '//' + location.host + '#contact-' + submitForm,
-                _subject: $("#subject-" + submitForm).val(),
-                text: emailField.val()
-            },
-            dataType: "json"
-        }).done(function() {
-            $("#form-result-" + submitForm
-               ).text("Good choice, I will get in touch with you soon.");
-        }).fail(function() {
-            $("#form-result-" + submitForm
-               ).text("Uh oh, my mail server is down. Please try again.");
-        })
-    });
-
-    function validateEmail(input) {
-        if (input.val().length === 0) {
-            input.focus();
-            return true;
-        }
-
-        return false;
-    }
-
 });
 

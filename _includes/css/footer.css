@@ -1,0 +1,15 @@
+#footer {
+  padding: 8px 0;
+  min-height:0;
+  text-align:center;
+  background-color:#2e2e2e;
+  background-image:none;
+}
+#footer .container p { font-size:13px; margin:0; }
+
+.footer-post {
+  background: url(https://raw.githubusercontent.com/pramodsum/pramodsum.github.io/master/_includes/img/sangria.jpg);
+  background-size: cover; 
+  background-position: center; 
+  color: white;
+}

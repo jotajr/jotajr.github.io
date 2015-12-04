@@ -1,7 +1,7 @@
 .btn-outline {
-  border: solid 2px #696969;
+  border: solid 2px white;
   font-size: 20px;
-  color: #696969;
+  color: white;
   background: 0 0;
   transition: all .3s ease-in-out;
 }
@@ -9,7 +9,7 @@
   display: inline-block;
   width: 50px;
   height: 50px;
-  border: 2px solid #696969;
+  border: 2px solid white;
   border-radius: 100%;
   text-align: center;
 }
@@ -23,9 +23,9 @@
 }
 .btn-circle {
   padding: 7px 0px;
-  border: 2px solid #696969;
+  border: 2px solid white;
   border-radius: 34px;
-  color: #696969;
+  color: white;
   background: 0 0;
   -webkit-transition: background .3s ease-in-out;
   -moz-transition: background .3s ease-in-out;
@@ -45,7 +45,9 @@
 .btn-circle:hover,
 .btn-circle:focus {
   outline: 0;
-  color: #494949;
+  color: rgb(94, 255, 212);
+  border-color: rgb(191, 98, 167);
+  background: rgba(191, 98, 167, 0.1);
 }
 .btn-circle i.animated {
   -webkit-transition-property: -webkit-transform;
