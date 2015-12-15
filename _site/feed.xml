@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Pramod.Ninja</title>
+    <title>Jota Jr</title>
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 19 Dec 2014 22:04:48 -0500</pubDate>
-    <lastBuildDate>Fri, 19 Dec 2014 22:04:48 -0500</lastBuildDate>
-    <generator>Jekyll v2.4.0</generator>
+    <pubDate>Fri, 04 Dec 2015 17:49:28 -0300</pubDate>
+    <lastBuildDate>Fri, 04 Dec 2015 17:49:28 -0300</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
     
       <item>
         <title>#Courses</title>
@@ -34,7 +34,7 @@
 
 &lt;div class=&quot;clear&quot;&gt;&lt;/div&gt;
 </description>
-        <pubDate>Thu, 06 Jan 2000 00:00:00 -0500</pubDate>
+        <pubDate>Thu, 06 Jan 2000 00:00:00 -0200</pubDate>
         <link>/</link>
         <guid isPermaLink="true">/</guid>
         
@@ -72,7 +72,7 @@
 
 &lt;/div&gt;
 </description>
-        <pubDate>Wed, 05 Jan 2000 00:00:00 -0500</pubDate>
+        <pubDate>Wed, 05 Jan 2000 00:00:00 -0200</pubDate>
         <link>/</link>
         <guid isPermaLink="true">/</guid>
         
@@ -147,7 +147,7 @@
 
 &lt;/div&gt;
 </description>
-        <pubDate>Mon, 03 Jan 2000 00:00:00 -0500</pubDate>
+        <pubDate>Mon, 03 Jan 2000 00:00:00 -0200</pubDate>
         <link>/</link>
         <guid isPermaLink="true">/</guid>
         
@@ -212,7 +212,7 @@
 
 &lt;/div&gt;
 </description>
-        <pubDate>Sun, 02 Jan 2000 00:00:00 -0500</pubDate>
+        <pubDate>Sun, 02 Jan 2000 00:00:00 -0200</pubDate>
         <link>/</link>
         <guid isPermaLink="true">/</guid>
         
