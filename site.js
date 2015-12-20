@@ -26,18 +26,18 @@ $.extend($.easing,
         navItems = this;
 
         //attatch click listeners
-    	navItems.on('click', function(event){
-    		event.preventDefault();
-            var navID = $(this).attr("href").substring(1);
-            disableScrollFn = true;
-            activateNav(navID);
+        navItems.on('click', function(event){
+          event.preventDefault();
+          var navID = $(this).attr("href").substring(1);
+          disableScrollFn = true;
+          activateNav(navID);
             populateDestinations(); //recalculate these!
-        	$('html,body').animate({scrollTop: sections[navID] - settings.scrollToOffset},
+            $('html,body').animate({scrollTop: sections[navID] - settings.scrollToOffset},
                 settings.scrollSpeed, "easeInOutExpo", function(){
                     disableScrollFn = false;
                 }
-            );
-    	});
+                );
+        });
 
         //populate lookup of clicable elements and destination sections
         populateDestinations(); //should also be run on browser resize, btw
@@ -65,7 +65,7 @@ $.extend($.easing,
 
     function activateNav(navID) {
         for (nav in navs) { $(navs[nav]).removeClass('active'); }
-        $(navs[navID]).addClass('active');
+            $(navs[navID]).addClass('active');
     }
 })( jQuery );
 
@@ -75,21 +75,58 @@ $(document).ready(function (){
     $('nav li a').navScroller();
 
     //section divider icon click gently scrolls to reveal the section
-	$(".sectiondivider").on('click', function(event) {
+    $(".sectiondivider").on('click', function(event) {
     	$('html,body').animate({scrollTop: $(event.target.parentNode).offset().top - 50}, 400, "linear");
-	});
+    });
 
     //links going to other sections nicely scroll
-	$(".container a").each(function(){
+    $(".container a").each(function(){
         if ($(this).attr("href").charAt(0) == '#'){
             $(this).on('click', function(event) {
-        		event.preventDefault();
-                var target = $(event.target).closest("a");
-                var targetHight =  $(target.attr("href")).offset().top
-            	$('html,body').animate({scrollTop: targetHight - 170}, 800, "easeInOutExpo");
-            });
+              event.preventDefault();
+              var target = $(event.target).closest("a");
+              var targetHight =  $(target.attr("href")).offset().top
+              $('html,body').animate({scrollTop: targetHight - 170}, 800, "easeInOutExpo");
+          });
         }
-	});
+    });
+
+    //contact form
+    $("#contact-form").submit(function(e) {
+        e.preventDefault();
+        submitForm = this.id.split('-')[2];
+        emailField = $("#text-" + submitForm);
+
+        if (validateEmail(emailField)) {
+            return true;
+        }
+
+        $.ajax({
+            url: "{{ site.form_action }}",
+            method: "POST",
+            data: {
+                _next: location.protocol + '//' + location.host + '#contact-' + submitForm,
+                _subject: $("#subject-" + submitForm).val(),
+                text: emailField.val()
+            },
+            dataType: "json"
+        }).done(function() {
+            $("#form-result-" + submitForm
+               ).text("Good choice, I will get in touch with you soon.");
+        }).fail(function() {
+            $("#form-result-" + submitForm
+               ).text("Uh oh, my mail server is down. Please try again.");
+        })
+    });
+
+    function validateEmail(input) {
+        if (input.val().length === 0) {
+            input.focus();
+            return true;
+        }
+
+        return false;
+    }
 
 });
 

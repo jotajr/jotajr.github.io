@@ -13,22 +13,30 @@ lsi: false
 markdown: kramdown
 highlighter: pygments
 
-
 ### content configuration ###
-title:       "Jota Jr"
-keywords:    "Jota Jr, Jota Freitas Jr, Jeosafá, Jeosafá Júnior, Jeosafá de Melo Freitas Jr, jotajr, jotafreitasjr"
-source_link: "https://github.com/pramodsum/pramodsum.github.io"
-favicon:     "ninja.png"
-touch_icon:  "ninja.png"
-# google_analytics_key: UA-49607422-1 ## put YOUR key here to enable tracking! (blank to disable)
+title:       "Ridermansb - Just another developer who is passionate with code"
+keywords:    "ridermansb, resume, web-develop, mobile-develop, asp.net-mvc, rust, cordova, tdd, bdd, azure, github, open-source, development, website"
+description: "Love to develop, both at home and at work. Develop with Asp.net MVC, WebApi/OData, Android, Rust, Cordova .. and most TDD/BDD. I like to study anything about development and technology."
+source_link: "https://ridermansb.github.io"
+favicon:     #put a path like: "img/favicon.ico"
+touch_icon:  #put a path like: "img/apple-touch-icon.png"
+google_analytics_key: "UA-61786731-1"
+
+
+# ---- Site configuration ----
+domain:      'http://ridermansb.me'
+form_action:  '//formspree.io/ridermansb@gmail.com'
+phone_number: '+55 (31) 8681-1986'
 
 
 ### template colors, used site-wide via css ###
 colors:
-  black:     '#111111'
-  white:     '#f8f8f8'
-  blue:      '#49a7e9'
-  green:     '#9bcf2f'
-  purple:    '#AE81FF'
-  orange:    '#EEED17'
-  turquoise: '#27B9B1'
+  black:      '#111111'
+  white:      '#f8f8f8'
+  blue:       '#49a7e9'
+  green:      '#9bcf2f'
+  purple:     '#c869bf'
+  orange:     '#fab125'
+  turquoise:  '#0fbfcf'
+  blackgray:  '#696969'
+  

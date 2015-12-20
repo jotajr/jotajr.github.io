@@ -1,0 +1,81 @@
+/* ----- Projects page ----- */
+
+#projects {
+	text-align: center;
+}
+#projects h3 {
+	margin: 0;
+	padding: 0;
+}
+#projects .container ul > li {
+	list-style: none;
+	margin-bottom: 1.5em;
+}
+#projects .container ul > li code {
+	position: relative;
+}
+
+#projects .container ul li.opensource code {
+	padding-left: 1.3em;
+}
+#projects .container ul > li code .fa-li {
+  left: 0;
+  width: 1.5em;
+}
+
+#projects .heading-font-size {
+	font-size: 1.2rem;
+	color: #383838;
+	letter-spacing: normal;
+	padding: 0;
+	margin: 0.4em 0;
+}
+
+#projects a {
+	text-decoration: inherit;
+}
+
+/* ----- Experiences page ----- */
+#experience .container .heading-font-size {
+	font-size: 1rem;
+	color: #383838;
+	letter-spacing: normal;
+	color: #f9f9f9;
+	padding: 0;
+	margin: 0;
+	display: block;
+	font-style: italic;
+}
+
+#experience .container .small.column h3 {
+	text-align: right;
+}
+
+/* ----- Graduantions page ----- */
+#graduation .container .title, #graduation .container .title h2 {
+	text-align: right;
+}
+#graduation .container .title h2 {
+	margin: 0;
+	padding: 0;
+}
+#graduation .container .title .lock {
+	text-decoration: line-through;
+}
+
+#graduation .container .desc, #graduation .container .desc h4 {
+	text-align: left;
+}
+#graduation .container .desc h4 {
+	margin: 0;
+	padding: 0;
+}
+
+
+#graduation .container .heading-font-size {
+	font-size: 1.2rem;
+	color: #383838;
+	letter-spacing: normal;
+	padding: 0;
+	margin: 0.4em 0;
+}
