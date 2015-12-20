@@ -1,10 +1,14 @@
-- name: TIM Post Paid
+- name: TIM Billing
   description: "Softwares for post paid billing of TIM Brazil"
   url: "http://tim.com.br"
-  tags: ["Java EE", "C", "C++", "PL/SQL"]
+  tags: ["Java EE", "C", "C++", "PL/SQL", "BSCS"]
 
-- name: TIM Post Paid
-  description: "Softwares for post paid billing of TIM Brazil"
-  url: "http://tim.com.br"
-  tags: ["Java EE", "C", "C++", "PL/SQL"]
-  opensource: "https://github.com/Ridermansb/listfy"
+- name: TIM Web 
+  description: "Institutional and Client websites"
+  url: "http://meutim.com.br"
+  tags: ["Java EE/Web", "Weblogic", "OpenText", "Portlets", "API"]
+
+- name: GVT/Vivo Billing 
+  description: "Billing systems of GVT/Vivo Internet provider"
+  url: "http://vivo.com.br"
+  tags: ["Java EE", "Kenan BP", "C"]
