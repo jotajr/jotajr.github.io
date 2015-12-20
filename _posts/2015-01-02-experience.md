@@ -12,6 +12,7 @@ fa-icon: briefcase
   <div class="small column">
     <h3>
       {{ experience.company }}
+      <span class="heading-font-size">{{ experience.job }}</span>
       <span class="heading-font-size">{{ experience.date }}</span>
     </h3>
   </div>
@@ -22,6 +23,3 @@ fa-icon: briefcase
 </div>
 {% endfor %}
 
-<p class="center">
-  <a href='http://vizualize.me/ridermansb?r=ridermansb' title='Riderman Sousa infographic CV on vizualize.me' target='_blank'><img src='http://vizualize.me/media/img/socialicons/viewmyviz.png'/></a>
-</p>

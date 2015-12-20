@@ -1,17 +1,18 @@
 - company: Accenture Brazil
   job: "Senior Software Engenieering"
-  date: Nov 2012 - Jul 2015
+  date: November 2012 - July 2015
   description: |+
-    Working with the follow technologies: Java (EE, SE, Web), C, C++, Weblogic, Open Text,
-    for the most important mobile carriers in Brazil, like TIM (Telecom Italia Mobile) and GVT/Vivo.
+    Worked at [Accenture of Brazil](https://www.accenture.com/br-pt), with the folloing technologies: Java (EE, SE, Web), C, C++, 
+    Weblogic, OpenText, BSCS Billing, Kenan BP, for the most important mobile carriers in Brazil, 
+    like TIM Brazil (Telecom Italia Mobile) and GVT/Vivo.
 
-- company: Bind Solution
-  job: "Freela: Web Developer / Administração TI"
-  date: June 2011 - July 2014
+- company: Embedded Lab - UFCG
+  job: "Team Leader - Mobile Development"
+  date: July 2014 - Present
   description: |+
-    Responsible for IT including (infra, servers, and development).
-    Work on developing web projects using Asp.net MVC, TDD, Google Apps deployment.
-    [some of the projects](http://bit.ly/ridermansb-clientes) analyzed [by the development community](http://sergiolopes.org/screencast-analise-performance-web-datafilme/).
+    On [Embedded](http://www.embeddedlab.org) - Embedded Systems and Pervasive Computing Laboratory of
+    Federal University of Campina Grande - (UFCG)[http://www.ufcg.edu.br], I'm Responsible for a mobile development team who create and maintain software for companies who has an agreement with this lab, 
+    working with the following technologies: Android (native), iOS (objective C / Swift), Cloud Computing (Parse and Amazon), etc.
 
 - company: Most
   job: "Líder Técnico"
