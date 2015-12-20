@@ -9,9 +9,9 @@ fa-icon: briefcase
 
   <article class="post">
     <div class="inner">
-      <h3>Box
-        <br><small><a href="https://developers.box.com/view-api/">View API</a> Software Engineering Intern</small>
-        <br><small>Summer 2014 | Los Altos, CA</small>
+      <h3><a href="https://www.accenture.com/br-pt">Accenture Brazil</a> 
+        <br><small>Senior Software Engineering</small>
+        <br><small>2012 - 2015 | Campina Grande - PB - Brazil</small>
       </h3>
       <p>Refactored View API, which currently only supports PDF, Word, and PowerPoint files, to support various new document types using python and Django, and JavaScript. Added support for text files, code files with syntax highlighting and basic markdown processing</p>
     </div>   
