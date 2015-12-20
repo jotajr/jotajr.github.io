@@ -14,19 +14,19 @@ markdown: kramdown
 highlighter: pygments
 
 ### content configuration ###
-title:       "Ridermansb - Just another developer who is passionate with code"
-keywords:    "ridermansb, resume, web-develop, mobile-develop, asp.net-mvc, rust, cordova, tdd, bdd, azure, github, open-source, development, website"
-description: "Love to develop, both at home and at work. Develop with Asp.net MVC, WebApi/OData, Android, Rust, Cordova .. and most TDD/BDD. I like to study anything about development and technology."
-source_link: "https://ridermansb.github.io"
+title:       "Jota Freitas Jr"
+keywords:    "jotajr, jotafreitasjr, Jota Freitas Jr, Jeosafa Junior, ios, android, ufcg"
+description: "Just a developer who wanna develop"
+source_link: "https://jotajr.github.io"
 favicon:     #put a path like: "img/favicon.ico"
 touch_icon:  #put a path like: "img/apple-touch-icon.png"
-google_analytics_key: "UA-61786731-1"
+google_analytics_key: 
 
 
 # ---- Site configuration ----
-domain:      'http://ridermansb.me'
-form_action:  '//formspree.io/ridermansb@gmail.com'
-phone_number: '+55 (31) 8681-1986'
+domain:      'http://jotajr.com'
+form_action:  #'//formspree.io/ridermansb@gmail.com'
+phone_number: '+55 (83) 98848-19862882'
 
 
 ### template colors, used site-wide via css ###
