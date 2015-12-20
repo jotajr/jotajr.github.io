@@ -1,59 +1,32 @@
-- name: Listfy
-  description: "Shared shopping list."
-  url: "http://ridermansb.github.io/listfy"
-  tags: ["Ionic", "Karma", "Javascript"]
-  opensource: "https://github.com/Ridermansb/listfy"
+- name: CONIMP Web
+  description: "Web App for print and delivery control"
+  tags: ["Java Web", "Javascript"]
 
-- name: Wox Skype Plugin
-  description: "Search Skype contacts and start a conversation."
-  url: "https://www.getwox.com/plugin/27"
-  tags: ["Asp.net mvc", "Razor"]
-  opensource: "http://ridermansb.github.io/wox.skype"
+- name: TIM - Post Paid
+  description: "Billing control apps for mobile post paid clients"
+  tags: ["Java EE", "C", "C++", "PL/SQL", "BSCS"]
 
-- name: Sementes Oilema
-  description: "Website institutional."
-  url: "http://sementesoilema.com.br/"
-  tags: ["Asp.net mvc", "Razor"]
+- name: GVT - Billing
+  description: "Kenan BP Billing for GVT clients"
+  tags: ["Java EE", "C", "Kenan BP", "PL/SQL"]
 
-- name: Quick Bookmarks
-  description: "Chrome extension to quick access your bookmarks."
-  url: "https://chrome.google.com/webstore/detail/bookmarks-r%C3%A1pidos/ifbjfdgeakhmnjaiembcoelocingbcll"
-  tags: ["Asp.net mvc", "Razor"]
-  opensource: "https://github.com/Ridermansb/quick-bookmarks"
+- name: TIM Web
+  description: "TIM Mobile institutional and client sites"
+  url: "http://meutim.com.br"
+  tags: ["OpenText", "Portlets", "Weblogic", "Java EE", "Service Orchestration"]
 
-- name: Semep
-  description: "Website institutional."
-  url: "http://semep.com.br/"
-  tags: ["Asp.net mvc", "Razor"]
+- name: China Taiwan Delivery
+  description: "Android delivery Application"
+  url: "https://play.google.com/store/apps/details?id=br.eti.prosit.chinataiwanandroid.app"
+  tags: ["Android", "Spring Boot", "WebService", "Parse"]
 
-- name: Dijkstra's algorithm
-  description: "Dijkstra's algorithm implemented with canvas."
-  url: "http://dijkstrasalgorithm.apphb.com/"
-  tags: ["Asp.net mvc", "Razor"]
-  opensource: "https://bitbucket.org/ridermansb/dijkstrasalgorithm"
-
-- name: Credito do Brasil
-  description: "Website institutional."
-  url: "http://creditodobrasil.com/"
-  tags: ["Asp.net mvc", "Razor"]
-
-- name: Datafilme
-  description: "Website institutional."
-  url: "http://datafilme.com.br/"
-  tags: ["Asp.net mvc", "Razor"]
-
-- name: Let's Go Festas
-  description: "Website institutional."
-  url: "http://letsgofestas.com.br/"
-  tags: ["Asp.net mvc", "Razor"]
-
-- name: Tavares de Melo
-  description: "Website institutional."
-  url: "http://tavaresdemelo.adv.br/"
-  tags: ["Asp.net mvc", "Razor"]
+- name: China Taiwan CG
+  description: "Institutional Website"
+  url: "http://chianataiwancg.com.br"
+  tags: ["HTML5", "CSS3", "Java Web"]
 
 - name: Personal Page
   description: "My resume page."
-  url: "http://ridermansb.me/"
-  tags: ["Asp.net mvc", "Razor"]
-  opensource: "https://github.com/Ridermansb/ridermansb.github.io"
+  url: "http://jotajr.com"
+  tags: ["Ruby", "Jekyll"]
+  opensource: "https://github.com/jotajr/jotajr.github.io"

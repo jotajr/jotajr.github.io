@@ -1,11 +1,8 @@
-- title: Computer Technician
-  institution: Colégio Cotemig
-  date: 2001
-  concluded: 2005
+- title: Telematics
+  institution: |+
+  	Federal Institute of Science, Education an Technology of Paraiba
+  date: 2007
+  concluded: 2011
   description: |+
-        - Winner of first place in the event of technology
+        - Technologist in Telematics and Information Systems
 
-- title: Information Systems
-  institution: Pontifícia Universidade Católica de Minas Gerais
-  date: 2010
-  lock: 2011
