@@ -12,3 +12,13 @@
   description: "Billing systems of GVT/Vivo Internet provider"
   url: "http://vivo.com.br"
   tags: ["Java EE", "Kenan BP", "C"]
+
+- name: China Taiwan Campina Grande 
+  description: "Institutional site"
+  url: "http://chinataiwancg.com.br"
+  tags: ["HTML 5", "CSS 3", "Java Web"]
+
+- name: China Taiwan Delivery App
+  description: "Android Application for Delivery chinese food"
+  url: "https://play.google.com/store/apps/details?id=br.eti.prosit.chinataiwanandroid.app"
+  tags: ["Android", "Parse", "AWS", "Spring Boot", "Spring MVC"]
