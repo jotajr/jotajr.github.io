@@ -1,5 +1,5 @@
 ---
-title: "#EXPERIENCE"
+title: "Experience"
 bg: turquoise
 color: white
 fa-icon: briefcase

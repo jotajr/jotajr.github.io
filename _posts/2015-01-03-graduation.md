@@ -1,5 +1,5 @@
 ---
-title: "#GRADUATION"
+title: "Graduation"
 bg: green
 color: white
 fa-icon: graduation-cap
