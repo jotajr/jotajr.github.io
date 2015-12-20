@@ -1,55 +1,27 @@
+- company: Millenium Print
+  job: Java Web Developer
+  date: Sep 2012 - Nov 2012
+  description: |+
+    Worked in a web application to control and tracking billing accounts from UNIMED.
+
 - company: Accenture Brazil
   job: "Senior Software Engenieering"
-  date: November 2012 - July 2015
+  date: Nov 2012 - Jul 2015
   description: |+
     Worked at [Accenture of Brazil](https://www.accenture.com/br-pt), with the folloing technologies: Java (EE, SE, Web), C, C++, 
     Weblogic, OpenText, BSCS Billing, Kenan BP, for the most important mobile carriers in Brazil, 
     like TIM Brazil (Telecom Italia Mobile) and GVT/Vivo.
 
 - company: Embedded Lab
-  job: "Team Leader - Mobile Development"
-  date: July 2014 - Present
+  job: "IT Team Leader"
+  date: Jul 2015 - Present
   description: |+
     On [Embedded](http://www.embeddedlab.org) - Embedded Systems and Pervasive Computing Laboratory of
     Federal University of Campina Grande - [UFCG](http://www.ufcg.edu.br), I'm Responsible for a mobile development team who create and maintain software for companies who has an agreement with this lab, 
     working with the following technologies: Android (native), iOS (objective C / Swift), Cloud Computing (Parse and Amazon), etc.
 
-- company: Most
-  job: "Líder Técnico"
-  date: Nov 2010 - Aug 2011
+- company: ProsIT
+  job: CEO
+  date: Jul 2015 - Present
   description: |+
-    Responsible for supporting developers and assist in best practices and development methodologies. Acting on a Web + Mobile project developed in Asp.net (web forms) and Windows Mobile 6.5.
-
-- company: CPM Braxis
-  job: "Analista de Sistemas Pleno"
-  date: April 2010 - Nov 2010
-  description: |+
-      Work in client (Prosegur) where I worked in a mobile system (Windows Mobile 6.5) responsible for communication between the central and the cars-strong.
-      To securely transmit information between the central and the strong car, we use SHA encryption and the algorithm Rijndael (for file encryption) communicating via Web Service.
-
-- company: Paiva Piovesan
-  job: "Analista Programador II"
-  date: Oct 2009 - April 2010
-  description: |+
-      Development and maintenance of the system used to control projects and tasks.
-      SQL Server database administration, creation of jobs and procedures.
-
-- company: AeC Consulting
-  job: "Analista de Sistemas Pleno"
-  date: May 2009 - Oct 2009
-  description: |+
-      Development of web projects or desktop to help customer service team and managers.
-      Systems such as administration of the snacks of the attendants, transport calculation and even reports for managers.
-
-- company: Codeme Engenharia
-  job: "Analista Programador II"
-  date: Feb 2009 - May 2009
-  description: |+
-      Development and maintenance on a desktop system used to create and manage engineering projects.
-
-- company: Paiva Piovesan
-  job: "Analista Programador I"
-  date: Oct 2006 - Dec 2008
-  description: |+
-      Development and maintenance of a desktop system used internally (project style) to control projects and tasks in the .NET platform.
-      Implementation and administration of SQL Server database.
+    Manage a company who works with Mobile, Web and Cloud software development and consulting for some companies in Campina Grande - PB - Brazil.
