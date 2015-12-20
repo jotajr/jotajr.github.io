@@ -1,15 +1,5 @@
 /* -- circulo da foto -- */
 
-.subtlecircle {
-  text-align:center;
-  z-index:3;
-  border-radius:50%;
-  -moz-border-radius:50%;
-  -webkit-border-radius:50%;
-  box-shadow: 0px 1px 15px rgba(0,0,0,0.05);
-  /* background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAF0lEQVQIHWP8//+/MQMaYELjg7kUCgIASm8DOqGzfp8AAAAASUVORK5CYII=); */
-}
-
 .header-img {
   border-radius: 50%;
 }
