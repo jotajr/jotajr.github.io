@@ -1,6 +1,6 @@
 ---
 title: "#CERTIFICATIONS"
-bg: blackgray
+bg: blue
 color: white
 fa-icon: trophy
 ---
