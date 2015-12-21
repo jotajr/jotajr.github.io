@@ -18,8 +18,8 @@ title:       "Jota Freitas Jr"
 keywords:    "jotajr, jotafreitasjr, Jota Freitas Jr, Jeosafa Junior, ios, android, ufcg"
 description: "Just a developer who wanna develop"
 source_link: "https://jotajr.github.io"
-favicon:     #put a path like: "img/favicon.ico"
-touch_icon:  #put a path like: "img/apple-touch-icon.png"
+favicon:     "img/favicon.png"
+touch_icon:  "img/apple-touch-icon.png"
 google_analytics_key: 
 
 
