@@ -1,28 +1,28 @@
 # Basic site info
-title:              "jota freitas jr •••"
+title:              "heiswayi nrird •••"
 description:        "Life Experience, Technology & Research"
 keywords:           "heiswayi nrird, personal blog, software engineer, life experience, technology and research"
-logo_text:          "Jota Freitas Jr"
+logo_text:          "Heiswayi Nrird"
 show_tagline:       true # edit file in /_includes/tagline.html
 show_social_icons:  true # edit file in /_includes/social_links.html
 og_locale:          "en_US"
 cover:              "/assets/logo.png" # site image cover
 
 # Site URL settings
-url:                https://jotajr.com.br # main url
+url:                https://heiswayi.nrird.com # main url
 baseurl:            null # for gh-pages
-enforce_ssl:        jotajr.com.br
+enforce_ssl:        heiswayi.nrird.com
 
 # Site author info
 author:
-  name:             "Jota Freitas Jr"
-  email:            jotafreitasjr@gmail.com
-  github_username:  jotajr
-  twitter_username: jotajr
-  facebook_url:     https://www.facebook.com/jotajr
+  name:             "Heiswayi Nrird"
+  email:            hnrird@gmail.com
+  github_username:  heiswayi
+  twitter_username: HeiswayiNrird
+  facebook_url:     https://www.facebook.com/heiswayi.nrird
 
 # Disqus comment settings
-disqus_enabled:     true
+disqus_enabled:     false
 disqus_shortname:   hnbloggithub
 
 # GA
@@ -34,7 +34,7 @@ destination:        ./_site
 permalink:          /:year/:title
 markdown:           kramdown
 highlighter:        rouge
-timezone:           Americas/Recife
+timezone:           Asia/Kuala_Lumpur
 exclude:            ["README.md", "LICENSE.md", "CHANGELOG.md"]
 
 # Site configurations
