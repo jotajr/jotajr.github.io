@@ -1,59 +1,56 @@
+# Basic site info
+title:              "jota freitas jr •••"
+description:        "Life Experience, Technology & Research"
+keywords:           "heiswayi nrird, personal blog, software engineer, life experience, technology and research"
+logo_text:          "Jota Freitas Jr"
+show_tagline:       true # edit file in /_includes/tagline.html
+show_social_icons:  true # edit file in /_includes/social_links.html
+og_locale:          "en_US"
+cover:              "/assets/logo.png" # site image cover
 
-# SEO settings
-title: "Jota Freitas Jr"
-title2: "" # default: ""
-description: "Testing this theme"
-keywords: "Jekyll, theme, free, download, SEO, blog, web, minimalist, thinkspace"
-url: http://heiswayi.github.io/thinkspace # site url
-baseurl: "" # apply repo name if use it under gh-pages branch
-# baseurl: null # apply null if repo name is something like username.github.io
+# Site URL settings
+url:                https://jotajr.com.br # main url
+baseurl:            null # for gh-pages
+enforce_ssl:        jotajr.com.br
 
-google_analytics: UA-XXXXX-XX
-repo: http://github.com/heiswayi/thinkspace
-disqus_shortname: "hnbloggithub"
-twitter_username: "HeiswayiNrird"
-comments: true
+# Site author info
+author:
+  name:             "Jota Freitas Jr"
+  email:            jotafreitasjr@gmail.com
+  github_username:  jotajr
+  twitter_username: jotajr
+  facebook_url:     https://www.facebook.com/jotajr
+
+# Disqus comment settings
+disqus_enabled:     true
+disqus_shortname:   hnbloggithub
+
+# GA
+google_analytics_code: UA-58296043-7
 
 # Build settings
-permalink   : /:year/:title/
-markdown    : kramdown
-highlighter : rouge
+source:             ./
+destination:        ./_site
+permalink:          /:year/:title
+markdown:           kramdown
+highlighter:        rouge
+timezone:           Americas/Recife
+exclude:            ["README.md", "LICENSE.md", "CHANGELOG.md"]
 
-source: ./
-destination: ./_site
+# Site configurations
+compress_html:
+  clippings:        all
+  comments:         ["<!-- ", " -->"]
+  endings:          all
+  ignore:
+    envs:           [local]
+  blanklines:       false
+  profile:          false
+  startings:        [html, head, body]
 
-# Sass configuration
 sass:
-  sass_dir: assets/scss
-  style: compressed # expanded
-
-# Author settings
-author:
-  name     : "Jota Freitas Jr"
-  job      : "Software Engineer"
-  bio      : "Works at Accenture Brazil and Virtus - UFCG - CEEI " 
-  thumb    : /images/author.jpg
-  email    : jotajr@jotajr.com
-  url      : http://jotajr.github.io
-  github   : http://github.com/jotajr
-  twitter  : http://twitter.com/jotajr
-  facebook : https://www.facebook.com/jotajr
-  linkedin : http://linkedin.com/in/jotafreitasjr
-
-# social settings
-og_locale: "pt-BR"
-twitter_card: "summary_large_image"
-twitter_site: "@jotajr"
+  sass_dir:         assets/scss
+  style:            compressed # expanded
 
 gems:
-  - bourbon
-  - jekyll-paginate
-
-# navbar pages
-navbar:
-  - slug : about
-    title: About
-  - slug : blog
-    title: Blog
-
-exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
+  - jekyll-sitemap
