@@ -16,6 +16,6 @@ bitbucket_username: jotajr
 
 # Google-analytics
 google-analytics:
-  id: ""
+  id: "66929443"
 
 exclude: ['package.json', 'src' , 'node_modules']
