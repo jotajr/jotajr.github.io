@@ -1,25 +1,25 @@
 # Basic site info
-title:              "heiswayi nrird •••"
+title:              "Jota Freitas Jr •••"
 description:        "Life Experience, Technology & Research"
 keywords:           "heiswayi nrird, personal blog, software engineer, life experience, technology and research"
-logo_text:          "Heiswayi Nrird"
+logo_text:          "Jota Freitas Jr"
 show_tagline:       true # edit file in /_includes/tagline.html
 show_social_icons:  true # edit file in /_includes/social_links.html
 og_locale:          "en_US"
 cover:              "/assets/logo.png" # site image cover
 
 # Site URL settings
-url:                https://heiswayi.nrird.com # main url
+url:                https://jotajr.com.br # main url
 baseurl:            null # for gh-pages
-enforce_ssl:        heiswayi.nrird.com
+enforce_ssl:        jotajr.com.br
 
 # Site author info
 author:
-  name:             "Heiswayi Nrird"
-  email:            hnrird@gmail.com
-  github_username:  heiswayi
-  twitter_username: HeiswayiNrird
-  facebook_url:     https://www.facebook.com/heiswayi.nrird
+  name:             "Jota Freitas Jr"
+  email:            jotafreitas@gmail.com
+  github_username:  jotajr
+  twitter_username: jotajr
+  facebook_url:     https://www.facebook.com/jotajr
 
 # Disqus comment settings
 disqus_enabled:     false
